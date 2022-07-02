@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Nanum+Gothic&family=Odibee+Sans&display=swap');
+
+
+body {
+    background-color: mintcream;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-family: 'Arima', cursive;
+    font-family: 'Odibee Sans', cursive;
+    font-size : 35px;
+    margin-bottom: 25px;
+}
+
+.skull {
+    font-size : 50px;
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-family: 'Odibee Sans', cursive;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.red {
+    font-size : 35px;
+    color: #ff5967;
+    font-family: 'Arima', cursive;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Odibee Sans', cursive;
+}
+
+.blog {
+    margin-bottom: 20px;
+}

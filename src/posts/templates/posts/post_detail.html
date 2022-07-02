@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %} {{ post.slug }} {% endblock %}
+
+{% block content %}
+
+
+    <h1>{{ post.title }}</h1>
+    <p>Dernière modification : {{ post.last_updated }}</p>
+    <img src="{{ post.image.url }}" alt="image article">
+    <p>{{ post.content|linebreaks|safe }}</p>
+    <i>Rédigé(e) par {{ post.author_or_not }} le {{ post.created_on|date:'j F Y'}}</i>
+
+{% endblock %}
